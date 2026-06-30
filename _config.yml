@@ -1,6 +1,29 @@
-title: Phoenix 的博客
-description: 我的 GitHub Pages 博客
+title: 我的个人博客
+description: 这是我的第一个 Jekyll 博客
+author: Phoenix
+
+
+url: "https://Phoenix04028.github.io"
+baseurl: ""
+
+# 👉 主题（必须有，否则不会渲染博客）
 theme: minima
 
+# 👉 插件（标准博客功能）
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# 👉 时区（可选，但建议加）
+timezone: Asia/Shanghai
+
+# 👉 Markdown 解析
+markdown: kramdown
+highlighter: rouge
+
+# 👉 排除文件（防止上传无用内容）
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
