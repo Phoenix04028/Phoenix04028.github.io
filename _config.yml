@@ -1,4 +1,6 @@
-title: 我的个人博客
-description: 使用 GitHub Pages 搭建的博客
-baseurl: ""
-url: "https://Phoenix.github.io"
+title: Phoenix 的博客
+description: 我的 GitHub Pages 博客
+theme: minima
+
+plugins:
+  - jekyll-feed
